@@ -45,6 +45,7 @@ function activateMenuAtCurrentSection(section) {
 }
 
 function showNavOnScroll() {
+  let navigation = document.getElementById("navigation")
   if (scrollY == 0) {
     // Essa prop define a altura da pag, quando igual a zero significa q esta no topo da pagina
     navigation.classList.remove('scroll')
